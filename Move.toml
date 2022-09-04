@@ -1,0 +1,15 @@
+[package]
+name = 'tutorial2'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies]
+AptosToken = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'main', subdir = 'aptos-move/framework/aptos-token'}
+
+
+[addresses]
+BatchMinter = 'b62e088925d95f36b2a2663f445f1ea99565c1c27def1c003415c0da45a88202'
+

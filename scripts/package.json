@@ -1,0 +1,28 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "nft_runner": "node --loader ts-node/esm nft_runner.ts"
+
+  },
+  "dependencies": {
+    "aptos": "^1.3.7",
+    "bs58": "^5.0.0",
+    "fmt": "^2.0.0",
+    "cross-fetch": "^3.1.5",
+    "js-sha3": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.41",
+    "bn.js": "^5.2.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4"
+  }
+}
